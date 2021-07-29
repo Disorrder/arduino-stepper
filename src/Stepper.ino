@@ -9,8 +9,8 @@
 #define S2_DIR  5
 #define S2_STEP 6
 
-Stepper stepper1 = Stepper(STEPS, S1_STEP, S1_DIR);
-// Stepper stepper2 = Stepper(STEPS, S2_STEP, S1_DIR);
+Stepper stepper1(STEPS, S1_STEP, S1_DIR);
+// Stepper stepper2(STEPS, S2_STEP, S1_DIR);
 
 void setup() {
 
